@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  NOTE: No location, GPS, or INTERNET permissions are declared.
+  The app is 100% offline (local SQLite) and uses NO maps/location SDK,
+  as explicitly required by the assignment brief (Section 2.3 / 3.3).
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:roundIcon="@drawable/ic_launcher"
+        android:theme="@style/Theme.SmartPantry">
+
+        <!-- Single host Activity that holds the three main fragments via bottom navigation -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Add / Edit a pantry item -->
+        <activity
+            android:name=".ui.AddEditIngredientActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
+
+        <!-- Full recipe detail screen -->
+        <activity
+            android:name=".ui.RecipeDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
+
+    </application>
+
+</manifest>
