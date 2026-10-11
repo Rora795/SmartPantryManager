@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Smart Pantry Manager</string>
+
+    <!-- navigation -->
+    <string name="nav_pantry">Pantry</string>
+    <string name="nav_suggestions">Suggestions</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- pantry list -->
+    <string name="empty_pantry">Your pantry is empty.\nTap + to add your first ingredient.</string>
+    <string name="label_expires">Expires: %1$s</string>
+
+    <!-- suggested recipes -->
+    <string name="empty_suggested">No recipes match your pantry yet \u2014 add more ingredients.</string>
+    <string name="label_ingredient_count">Needs %1$d ingredients \u2014 you have them all</string>
+
+    <!-- add / edit -->
+    <string name="title_add_item">Add Ingredient</string>
+    <string name="title_edit_item">Edit Ingredient</string>
+    <string name="hint_name">Ingredient name (e.g. Tomato)</string>
+    <string name="hint_quantity">Quantity (e.g. 3)</string>
+    <string name="hint_unit">Unit (pcs, g, ml\u2026)</string>
+    <string name="hint_expiry">Expiry date (YYYY-MM-DD, optional)</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- validation -->
+    <string name="err_name_required">Please enter an ingredient name</string>
+    <string name="err_qty_required">Please enter a quantity</string>
+    <string name="err_qty_number">Quantity must be a number</string>
+    <string name="err_qty_positive">Quantity must be greater than 0</string>
+    <string name="err_expiry_format">Use format YYYY-MM-DD</string>
+    <string name="msg_added">Ingredient added</string>
+    <string name="msg_updated">Ingredient updated</string>
+
+    <!-- recipe detail -->
+    <string name="label_ingredients">Required ingredients</string>
+    <string name="label_method">Method</string>
+    <string name="recipe_not_found">Recipe not found</string>
+
+    <!-- settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_alerts">Show expiring-soon alerts</string>
+    <string name="settings_units">Preferred units</string>
+    <string name="settings_metric">Metric (g, ml)</string>
+    <string name="settings_imperial">Imperial (oz, cup)</string>
+</resources>
