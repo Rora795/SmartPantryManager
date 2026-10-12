@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_pantry"
+        android:icon="@drawable/ic_pantry"
+        android:title="@string/nav_pantry" />
+
+    <item
+        android:id="@+id/nav_suggestions"
+        android:icon="@drawable/ic_suggestions"
+        android:title="@string/nav_suggestions" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/nav_settings" />
+</menu>
