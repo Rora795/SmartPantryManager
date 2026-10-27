@@ -7,7 +7,7 @@
     <string name="nav_settings">Settings</string>
 
     <!-- pantry list -->
-    <string name="empty_pantry">Your pantry is empty.\nTap + to add your first ingredient.</string>
+    <string name="empty_pantry">Nothing in your pantry yet.\nTap the + button to add an ingredient.</string>
     <string name="label_expires">Expires: %1$s</string>
 
     <!-- suggested recipes -->
